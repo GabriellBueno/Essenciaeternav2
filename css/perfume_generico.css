@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light&display=swap');
+
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Yuji Hentaigana Akari', cursive;*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px 0px;
+    background-color: #ad5aa9;
+    color: wheat;
+    font-family: 'Dancing Script', cursive;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: wheat;
+}
+
+.conteiner{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+header .conteiner, section .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section{
+    padding: 20px 0px;
+    color: #ad5aa9;
+}
+
+section .conteiner{
+    align-items: flex-start;
+}
+
+section h2{
+    padding-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+section p{
+    padding-bottom: 10px;
+    font-family: 'Yuji Hentaigana Akari', cursive;
+}
+
+.perfume_generico{
+    padding-right: 10px;
+    height: 380px;
+    width: 600px;
+}
+
+label{
+    display: flex;
+    justify-content: center;
+}
+select{
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+    outline-color: #ad5aa9;
+    border-color: #ad5aa9;
+}
+
+select:focus{
+    outline: none;
+
+}
